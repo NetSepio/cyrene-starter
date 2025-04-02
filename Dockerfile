@@ -38,7 +38,7 @@ WORKDIR /app
 COPY . .
 
 # Ensure TypeScript is installed
-RUN pnpm add -g typescript
+RUN pnpm add -D typescript
 
 # Install dependencies
 RUN pnpm install --no-frozen-lockfile
